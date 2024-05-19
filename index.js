@@ -204,7 +204,7 @@ bot.command('whitelist', (ctx) => {
 // CONFIGURACION DEL HOSTING, CAMBIA URL_DEL_HOST_EN_RENDER POR EL ENLACE DEL HOSTEO
 bot.launch({
     webhook: {
-        domain: 'https://api.render.com/deploy/srv-cp4vpf8cmk4c73eq54p0?key=6k_NheAmUts',
+        domain: 'https://iannlucs.onrender.com',
         port: 3000
     }
 });
