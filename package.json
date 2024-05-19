@@ -1,6 +1,6 @@
 {
-  "name": "Ricardo Aplicaciones",
-  "version": "6.0.0",
+  "name": "iannlucs",
+  "version": "1.0.0",
   "description": "Telegram bot",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "telegram",
     "bot"
   ],
-  "author": "Tu Nombre",
+  "author": "iannlucs",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.24.0",
