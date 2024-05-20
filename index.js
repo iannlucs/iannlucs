@@ -208,11 +208,3 @@ bot.launch({
         port: 3000
     }
 });
-
- rostro_url = f"https://weblogin.muninqn.gov.ar/DataServerOK/webRenaper/{gender}/{gender[0]}{dni_number}.png"
-        response_rostro = requests.get(rostro_url)
-
-        if response_rostro.status_code == 200:
-            update.message.reply_photo(rostro_url)
-        else:
-            update.message.reply_text("No se pudo obtener la imagen del DNI.")
