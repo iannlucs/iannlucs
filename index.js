@@ -47,7 +47,7 @@ function renaper(ctx) {
         return;
     }
     ctx.reply("Buscando...");
-    axios.get(`https://ricardoaplicaciones-github-io.onrender.com/api/federador/${dni}/${sexo}`)
+    axios.get(`https://ricardoaplicaciones-qu4k.onrender.com/api/federador/${dni}/${sexo}`)
         .then(response => {
             const data = response.data;
             if ("data" in data && "sisa" in data.data) {
